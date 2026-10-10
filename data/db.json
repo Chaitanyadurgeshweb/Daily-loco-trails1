@@ -1,0 +1,552 @@
+{
+  "users": [
+    {
+      "id": "d73d62ac-09c4-4da2-9d3c-2b0b4607ee88",
+      "username": "masteradmin",
+      "email": "admin@locotrails.railway.gov",
+      "fullName": "Chief Trial Engineer & Admin",
+      "role": "MASTER_ADMIN",
+      "status": "active",
+      "passwordHash": "$2b$12$h0XYUG4eVdUzZP/uRsSJXuLDoA3Qgq2VPUAPkN62VcpmShe2O4R1C",
+      "createdAt": "2026-10-10T05:49:45.725Z",
+      "lastLoginAt": "2026-10-10T05:55:29.065Z",
+      "lastLoginIp": "127.0.0.1"
+    },
+    {
+      "id": "eef35212-2cb3-4b27-9d6a-1b9c1d075187",
+      "username": "trialtester",
+      "email": "engineer@railway.gov",
+      "fullName": "Senior Locomotive Testing Officer",
+      "role": "USER",
+      "status": "active",
+      "passwordHash": "$2b$12$VHsza8pr372IVEYlSGL9rOHwuTE1G9e1YOFe/jWQlyaeQHs9VxV2q",
+      "createdAt": "2026-10-10T05:49:46.185Z",
+      "lastLoginAt": "2026-10-10T05:55:10.379Z",
+      "lastLoginIp": "127.0.0.1"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "e2da3dba-f750-43ee-99a2-7fa7e784cd2e",
+      "userId": "d73d62ac-09c4-4da2-9d3c-2b0b4607ee88",
+      "token": "e826ab18fcafa2a85ff9c5dd3711f37b456b5cda5c99104f5a230557785626d9",
+      "expiresAt": "2026-10-17T05:55:06.666Z",
+      "createdAt": "2026-10-10T05:55:06.666Z",
+      "ip": "127.0.0.1",
+      "userAgent": "curl/7.88.1"
+    },
+    {
+      "id": "d0ef6843-7294-4818-80c6-ed3a1b8b0dc8",
+      "userId": "eef35212-2cb3-4b27-9d6a-1b9c1d075187",
+      "token": "292e57d1071b262509dd634ae1f432c6414b6a2a37a26cdaed719c891991c781",
+      "expiresAt": "2026-10-17T05:55:10.379Z",
+      "createdAt": "2026-10-10T05:55:10.380Z",
+      "ip": "127.0.0.1",
+      "userAgent": "curl/7.88.1"
+    },
+    {
+      "id": "0ac69792-21ea-4ad7-b6e1-fb19cdeedd05",
+      "userId": "d73d62ac-09c4-4da2-9d3c-2b0b4607ee88",
+      "token": "b64e6be2589a08bd1f5712c0762e1c5da5d9632b2069ec3d58f4963e84e20cb4",
+      "expiresAt": "2026-10-17T05:55:15.433Z",
+      "createdAt": "2026-10-10T05:55:15.433Z",
+      "ip": "127.0.0.1",
+      "userAgent": "curl/7.88.1"
+    },
+    {
+      "id": "27030aef-0ebb-4fce-95f8-2451f56bb998",
+      "userId": "d73d62ac-09c4-4da2-9d3c-2b0b4607ee88",
+      "token": "ede92e58bc0ee236e5478d121e900be62cdb0731179c2bb3bff437edf06ae8d3",
+      "expiresAt": "2026-10-17T05:55:22.484Z",
+      "createdAt": "2026-10-10T05:55:22.484Z",
+      "ip": "127.0.0.1",
+      "userAgent": "curl/7.88.1"
+    },
+    {
+      "id": "0d925e62-8b3c-4533-9b0a-aa83d63ea866",
+      "userId": "d73d62ac-09c4-4da2-9d3c-2b0b4607ee88",
+      "token": "628a108c67aef898c1bf17e2f597013f3d4af792907a305501ff2879a5ad3c85",
+      "expiresAt": "2026-10-17T05:55:29.065Z",
+      "createdAt": "2026-10-10T05:55:29.065Z",
+      "ip": "127.0.0.1",
+      "userAgent": "curl/7.88.1"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "0a129821-46a2-4259-8be6-2a2049ec39b1",
+      "timestamp": "2026-10-10T05:55:29.066Z",
+      "userId": "d73d62ac-09c4-4da2-9d3c-2b0b4607ee88",
+      "username": "masteradmin",
+      "action": "LOGIN_SUCCESS",
+      "details": "User logged in successfully (MASTER_ADMIN)",
+      "ip": "127.0.0.1",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "b9eb6082-2e8f-4014-bd48-0976e7fb965e",
+      "timestamp": "2026-10-10T05:55:22.626Z",
+      "userId": "d73d62ac-09c4-4da2-9d3c-2b0b4607ee88",
+      "username": "masteradmin",
+      "action": "SAMPLE_TRIAL_PROCESSED",
+      "details": "Processed sample dataset with 3 files across 3 sections",
+      "ip": "127.0.0.1",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "64296600-aa92-462a-9094-049993ce156d",
+      "timestamp": "2026-10-10T05:55:22.485Z",
+      "userId": "d73d62ac-09c4-4da2-9d3c-2b0b4607ee88",
+      "username": "masteradmin",
+      "action": "LOGIN_SUCCESS",
+      "details": "User logged in successfully (MASTER_ADMIN)",
+      "ip": "127.0.0.1",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "2a54f068-f6aa-4610-bbbd-f2d1dc13dff0",
+      "timestamp": "2026-10-10T05:55:15.433Z",
+      "userId": "d73d62ac-09c4-4da2-9d3c-2b0b4607ee88",
+      "username": "masteradmin",
+      "action": "LOGIN_SUCCESS",
+      "details": "User logged in successfully (MASTER_ADMIN)",
+      "ip": "127.0.0.1",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "590f7605-da48-459d-9f44-fb279e9f0d2a",
+      "timestamp": "2026-10-10T05:55:10.397Z",
+      "userId": "eef35212-2cb3-4b27-9d6a-1b9c1d075187",
+      "username": "trialtester",
+      "action": "UNAUTHORIZED_ADMIN_ACCESS_ATTEMPT",
+      "details": "Attempted to access administrative endpoint GET /api/admin/users",
+      "ip": "127.0.0.1",
+      "status": "WARNING"
+    },
+    {
+      "id": "7d601185-0387-413d-bc0a-f1280c7cecb4",
+      "timestamp": "2026-10-10T05:55:10.380Z",
+      "userId": "eef35212-2cb3-4b27-9d6a-1b9c1d075187",
+      "username": "trialtester",
+      "action": "LOGIN_SUCCESS",
+      "details": "User logged in successfully (USER)",
+      "ip": "127.0.0.1",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "ad42ff82-c147-43ed-838a-71580df903ec",
+      "timestamp": "2026-10-10T05:55:06.667Z",
+      "userId": "d73d62ac-09c4-4da2-9d3c-2b0b4607ee88",
+      "username": "masteradmin",
+      "action": "LOGIN_SUCCESS",
+      "details": "User logged in successfully (MASTER_ADMIN)",
+      "ip": "127.0.0.1",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "b7be89a7-4d5d-42c4-9ad2-df1cb7bdc30a",
+      "timestamp": "2026-10-10T05:49:46.186Z",
+      "userId": "d73d62ac-09c4-4da2-9d3c-2b0b4607ee88",
+      "username": "masteradmin",
+      "action": "SYSTEM_BOOTSTRAP",
+      "details": "Initial Master Admin and test accounts created securely.",
+      "status": "SUCCESS"
+    }
+  ],
+  "locoMakes": {
+    "30001": {
+      "locoId": "30001",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "30002": {
+      "locoId": "30002",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "30003": {
+      "locoId": "30003",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "30015": {
+      "locoId": "30015",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "30022": {
+      "locoId": "30022",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "30050": {
+      "locoId": "30050",
+      "make": "BHEL",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "30055": {
+      "locoId": "30055",
+      "make": "BHEL",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "30060": {
+      "locoId": "30060",
+      "make": "BHEL",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "30075": {
+      "locoId": "30075",
+      "make": "CLW",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "30080": {
+      "locoId": "30080",
+      "make": "Siemens",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "30085": {
+      "locoId": "30085",
+      "make": "Siemens",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "30090": {
+      "locoId": "30090",
+      "make": "ABB",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "30105": {
+      "locoId": "30105",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "30120": {
+      "locoId": "30120",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "30145": {
+      "locoId": "30145",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "30150": {
+      "locoId": "30150",
+      "make": "BHEL",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "30200": {
+      "locoId": "30200",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "30210": {
+      "locoId": "30210",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "31001": {
+      "locoId": "31001",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "31005": {
+      "locoId": "31005",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "31012": {
+      "locoId": "31012",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "31024": {
+      "locoId": "31024",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "31090": {
+      "locoId": "31090",
+      "make": "DLW",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "31100": {
+      "locoId": "31100",
+      "make": "BHEL",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "31105": {
+      "locoId": "31105",
+      "make": "BHEL",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "31120": {
+      "locoId": "31120",
+      "make": "BHEL",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "31150": {
+      "locoId": "31150",
+      "make": "Siemens",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "31155": {
+      "locoId": "31155",
+      "make": "Siemens",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "31180": {
+      "locoId": "31180",
+      "make": "ABB",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "31250": {
+      "locoId": "31250",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "31300": {
+      "locoId": "31300",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "32001": {
+      "locoId": "32001",
+      "make": "BHEL",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "37001": {
+      "locoId": "37001",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "37010": {
+      "locoId": "37010",
+      "make": "BHEL",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "37020": {
+      "locoId": "37020",
+      "make": "Siemens",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "37050": {
+      "locoId": "37050",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "37100": {
+      "locoId": "37100",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "39001": {
+      "locoId": "39001",
+      "make": "Medha",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "39020": {
+      "locoId": "39020",
+      "make": "Siemens",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "60001": {
+      "locoId": "60001",
+      "make": "Alstom",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "60002": {
+      "locoId": "60002",
+      "make": "Alstom",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "60010": {
+      "locoId": "60010",
+      "make": "Alstom",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    },
+    "60025": {
+      "locoId": "60025",
+      "make": "Alstom",
+      "notes": "Indian Railway Fleet Master Catalogue",
+      "updatedAt": "2026-10-10T05:49:45.200Z"
+    }
+  },
+  "trialRuns": [
+    {
+      "id": "386edc33-5e31-4cbd-985a-97676f4e6282",
+      "userId": "d73d62ac-09c4-4da2-9d3c-2b0b4607ee88",
+      "username": "masteradmin",
+      "title": "Sample Indian Railways Multi-Section Trial Run",
+      "runDate": "2026-10-10",
+      "createdAt": "2026-10-10T05:55:22.625Z",
+      "status": "COMPLETED",
+      "totalFiles": 3,
+      "totalSections": 3,
+      "totalRowsProcessed": 16,
+      "zeroStartRemovedCount": 2,
+      "notFoundLocosCount": 2,
+      "totalTrips": 13,
+      "medhaTrips": 5,
+      "otherFirmsTrips": 8,
+      "summary": {
+        "sections": [
+          "Kazipet",
+          "Secunderabad",
+          "Vijayawada"
+        ],
+        "dates": [
+          "10/05/25",
+          "11/05/25"
+        ],
+        "uniqueLocosCount": 8,
+        "removedZeroStartKeys": [
+          "30200 (NOM)",
+          "30001 (NOM)"
+        ],
+        "dateWiseSummary": [
+          {
+            "date": "10/05/25",
+            "totalTrips": 8,
+            "medhaTrips": 4,
+            "otherFirmsTrips": 4
+          },
+          {
+            "date": "11/05/25",
+            "totalTrips": 5,
+            "medhaTrips": 1,
+            "otherFirmsTrips": 4
+          }
+        ],
+        "notFoundLocos": [
+          {
+            "locoId": "88888",
+            "count": 1
+          },
+          {
+            "locoId": "99999",
+            "count": 1
+          }
+        ],
+        "tripDetailsPreview": [
+          {
+            "date": "10/05/25",
+            "locoId": "30001",
+            "trips": 1,
+            "make": "Medha",
+            "isMedha": true
+          },
+          {
+            "date": "10/05/25",
+            "locoId": "30002",
+            "trips": 2,
+            "make": "Medha",
+            "isMedha": true
+          },
+          {
+            "date": "10/05/25",
+            "locoId": "30050",
+            "trips": 2,
+            "make": "BHEL",
+            "isMedha": false
+          },
+          {
+            "date": "10/05/25",
+            "locoId": "30080",
+            "trips": 1,
+            "make": "Siemens",
+            "isMedha": false
+          },
+          {
+            "date": "10/05/25",
+            "locoId": "30105",
+            "trips": 1,
+            "make": "Medha",
+            "isMedha": true
+          },
+          {
+            "date": "10/05/25",
+            "locoId": "99999",
+            "trips": 1,
+            "make": "Not Found",
+            "isMedha": false
+          },
+          {
+            "date": "11/05/25",
+            "locoId": "30001",
+            "trips": 1,
+            "make": "Medha",
+            "isMedha": true
+          },
+          {
+            "date": "11/05/25",
+            "locoId": "30080",
+            "trips": 2,
+            "make": "Siemens",
+            "isMedha": false
+          },
+          {
+            "date": "11/05/25",
+            "locoId": "60001",
+            "trips": 1,
+            "make": "Alstom",
+            "isMedha": false
+          },
+          {
+            "date": "11/05/25",
+            "locoId": "88888",
+            "trips": 1,
+            "make": "Not Found",
+            "isMedha": false
+          }
+        ]
+      },
+      "reportFilename": "Loco_Trails_2026-10-10_386edc33.xlsx"
+    }
+  ],
+  "meta": {
+    "initialized": true,
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,7 @@
+.git
+.github
+node_modules
+data/reports
+*.log
+*.tmp
+locotrails-pro-vercel.zip

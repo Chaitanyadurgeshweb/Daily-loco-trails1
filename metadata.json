@@ -1,0 +1,6 @@
+{
+  "name": "LocoTrails Pro - Daily Locomotive Trials Analytics",
+  "description": "Enterprise locomotive trial data processing system with automated zero-start filtration, multi-section reporting, OEM make reconciliation, and role-based access control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
